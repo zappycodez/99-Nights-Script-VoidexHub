@@ -1,0 +1,8 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local remoteEvents = ReplicatedStorage:WaitForChild("RemoteEvents")
+local startCatchTimer = remoteEvents:WaitForChild("StartCatchTimer")
+local confirmCatchItem = remoteEvents:WaitForChild("ConfirmCatchItem")
+
+startCatchTimer.OnClientEvent:Connect(function()
+    confirmCatchItem:FireServer()
+end)
