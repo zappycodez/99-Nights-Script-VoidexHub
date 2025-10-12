@@ -8,7 +8,7 @@
                                                                                                                        
 A hub designed to specially have everything you'd need, this LUA script is for educational and testing purposes only and is not meant for any type of cheating.
 Loader
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zappycodez/99-Nights-Script-VoidexHub/refs/heads/main/code"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zappycodez/99-Nights-Script-VoidexHub/refs/heads/main/loader"))()
 
 MORE SCRIPTS IN THE DISCORD BELOW 
 https://discord.gg/7jjem8dssk
